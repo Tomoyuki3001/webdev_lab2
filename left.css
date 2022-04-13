@@ -1,9 +1,4 @@
-.side_menu {
-    display: flex;
-    justify-content: first end;
-}
-
-.categories_tweet {
+.categories_tweet { 
     height: 90%;
     right: 0%;
 }
