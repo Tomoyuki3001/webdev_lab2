@@ -1,0 +1,28 @@
+/* whole settings */
+body{
+    margin: 0 80px;
+}
+.main_page {
+    display: flex;
+    margin: 0%;
+    height: 800px;
+    width: auto;
+}
+
+.side_menu {
+    width: 25%;
+}
+.tweet_news {
+    display: flex;
+    width: 75%;
+}
+
+.main_tweets {
+    width: 55%;
+}
+
+.right_news {
+    width: 45%;
+}
+
+

@@ -1,0 +1,31 @@
+.sarch_bar{
+    border-radius: 60px;
+}
+.news_box h2{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.right_news{
+    background-color: rgb(247, 249, 249);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.img_news img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.news{
+    font-size: 13px;
+}
+.news_category{
+    font-weight: right;
+    color: #536471;
+}
+.news_title{
+    font-size: 15px;
+}
+
+

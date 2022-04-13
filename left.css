@@ -1,0 +1,38 @@
+.side_menu {
+
+}
+
+.left_menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories_tweet {
+    height: 90%;
+    right: 0%;
+}
+
+.profile_link {
+    height: 10%;
+}
+
+.cg_menu_top {
+    width: 28px;
+    height: 28px;
+}
+
+.side_menu img {
+    width: 26px;
+    height: 26px;
+}
+
+.cg_menu {
+    margin: 0%;
+    height: 26px;
+    display: flex;
+}
+
+.cg_menu span {
+    font-size: 26px;
+    padding: 0px 24px;
+}
