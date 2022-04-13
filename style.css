@@ -15,6 +15,7 @@ body{
 .tweet_news {
     display: flex;
     width: 75%;
+    padding-right: 5%;
 }
 
 .main_tweets {

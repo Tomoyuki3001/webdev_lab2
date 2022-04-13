@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+}
+.icon_box{
+    width: 50px;
+}
+.icon_box img{
+    border-radius: 50%;
+    width: 100%;
+
+}
