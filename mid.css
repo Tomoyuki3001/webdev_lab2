@@ -1,11 +1,13 @@
-.flex{
+p{
+    margin: 0;
+}
+.tweet_txt{
+    margin-left: 1px;
+}
+.flex_mid{
     display: flex;
 }
-.icon_box{
-    width: 50px;
-}
-.icon_box img{
+.prof_box img{
     border-radius: 50%;
-    width: 100%;
-
+    width: 50px;
 }
