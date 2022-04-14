@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./left.css" />
     <link rel="stylesheet" href="mid.css">
@@ -16,43 +17,42 @@
 <body>
     <div class="main_page">
         <!-- Left menu space -->
-        <section class="side_menu">
-            <div class="left_menu">
+            <div class="side_menu">
                 <div class="categories_tweet">
-                    <img class="cg_menu_top" src="./Imeges/Left_menu/img_left_top.png" alt="twitter_icon">
+                    <i class="fa-brands fa-twitter icon"></i>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Home</span>
+                        <div class="cg_menu_inside"><i id="home" class="fa-solid fa-house icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Home</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Explore</span>
+                        <div class="cg_menu_inside"><i class="fa-solid fa-hashtag icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Explore</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Notifiction</span>
+                        <div class="cg_menu_inside"><i class="fa-regular fa-bell icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Notification</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Messages
-                        </span>
+                        <div class="cg_menu_inside"><i class="fa-regular fa-envelope icon"></i></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Messages</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Bookmarks</span>
+                        <div class="cg_menu_inside"><i class="fa-regular fa-bookmark icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Bookmarks</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Lists</span>
+                        <div class="cg_menu_inside"><i class="fa-regular fa-file-lines icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Lists</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>Profile</span>
+                        <div class="cg_menu_inside"><i class="fa-regular fa-user icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">Profile</p></div>
                     </div>
                     <div class="cg_menu">
-                        <img src="./Imeges/Left_menu/img_left_home.png" alt="menu_icons">
-                        <span>More</span>
+                        <div class="cg_menu_inside"><i class="fa-regular fa-ellipsis icon"></i></div>
+                        <div class="cg_menu_inside"><p class="subject">More</p></div>
                     </div>
+                    
                     <div class="tweet_btn">
                         <p>Tweet</p>
                     </div>
@@ -61,10 +61,9 @@
                     <p>Profile page</p>
                 </div>
             </div>
-        </section>
         
-        <ssection class="tweet_news">
             <!-- Main tweets space  -->
+            <div class="tweet_news">
             <div class="main_tweets">
                 <div class="home">
                     <h3>home</h3>
@@ -163,7 +162,9 @@
                         </a>
                     </div>                  
                 </div>
-        </ssection>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

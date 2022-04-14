@@ -1,10 +1,13 @@
-.categories_tweet { 
-    height: 90%;
-    right: 0%;
+.side_menu {
+    background-color: bisque;
+}
+
+.categories_tweet {
+    margin: 0%;
 }
 
 .profile_link {
-    height: 10%;
+    background-color: blue;
 }
 
 .cg_menu_top {
@@ -12,18 +15,31 @@
     height: 28px;
 }
 
-.side_menu img {
+.side_menu i {
     width: 26px;
     height: 26px;
 }
 
 .cg_menu {
-    margin: 0%;
+    margin: 15% 0%;
     height: 26px;
     display: flex;
 }
 
-.cg_menu span {
-    font-size: 26px;
-    padding: 0px 24px;
+.cg_menu_inside {
+display: table;
+}
+
+.icon, .subject {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cg_menu p {
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.icon {
+    font-size: 22px;
 }

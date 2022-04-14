@@ -1,29 +1,27 @@
 /* whole settings */
 body{
-    margin: 0 80px;
+    margin: 0;
 }
 .main_page {
     display: flex;
-    margin: 0%;
-    height: 800px;
-    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .side_menu {
-    width: 25%;
+    width: 22%;
 }
 .tweet_news {
+    width: 78%;
     display: flex;
-    width: 75%;
-    padding-right: 5%;
 }
 
 .main_tweets {
-    width: 55%;
+    width: 70%;
 }
 
 .right_news {
-    width: 45%;
+    width: 30%;
 }
 
 
