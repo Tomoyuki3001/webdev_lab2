@@ -17,66 +17,81 @@
 <body>
     <div class="main_page">
         <!-- Left menu space -->
-            <div class="side_menu">
-                <div class="categories_tweet">
-                    <i class="fa-brands fa-twitter icon"></i>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i id="home" class="fa-solid fa-house icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Home</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-solid fa-hashtag icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Explore</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-regular fa-bell icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Notification</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-regular fa-envelope icon"></i></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Messages</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-regular fa-bookmark icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Bookmarks</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-regular fa-file-lines icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Lists</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-regular fa-user icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">Profile</p></div>
-                    </div>
-                    <div class="cg_menu">
-                        <div class="cg_menu_inside"><i class="fa-regular fa-ellipsis icon"></i></div>
-                        <div class="cg_menu_inside"><p class="subject">More</p></div>
-                    </div>
-                    
-                    <div class="tweet_btn">
-                        <p>Tweet</p>
+        <div class="side_menu">
+            <div class="categories_tweet">
+                <i class="fa-brands fa-twitter icon"></i>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i id="home" class="fa-solid fa-house icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Home</p>
                     </div>
                 </div>
-                <div class="profile_link">
-                    <p>Profile page</p>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-solid fa-hashtag icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Explore</p>
+                    </div>
+                </div>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-regular fa-bell icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Notification</p>
+                    </div>
+                </div>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-regular fa-envelope icon"></i></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Messages</p>
+                    </div>
+                </div>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-regular fa-bookmark icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Bookmarks</p>
+                    </div>
+                </div>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-regular fa-file-lines icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Lists</p>
+                    </div>
+                </div>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-regular fa-user icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">Profile</p>
+                    </div>
+                </div>
+                <div class="cg_menu">
+                    <div class="cg_menu_inside"><i class="fa-regular fa-ellipsis icon"></i></div>
+                    <div class="cg_menu_inside">
+                        <p class="subject">More</p>
+                    </div>
+                </div>
+
+                <div class="tweet_btn">
+                    <p>Tweet</p>
                 </div>
             </div>
-        
-            <!-- Main tweets space  -->
-            <div class="tweet_news">
+            <div class="profile_link">
+                <p>Profile page</p>
+            </div>
+        </div>
+
+        <!-- Main tweets space  -->
+        <div class="tweet_news">
             <div class="main_tweets">
-                <div class="home">
+                <div class="home_title flex_mid">
                     <h3>home</h3>
-                    <div class="home_icon">
-                        <!-- <i class="fa-thin fa-sparkles"></i> -->
-                        <!-- <i class="fa-thin fa-sparkles"></i> -->
-                        <!-- <i class="fa-solid fa-wheat-awn-circle-exclamation"></i> -->
-                    </div>
+                    <div class=" home_icon home"></div>
                 </div>
                 <div class="tweet_box">
                     <div class="prof_box flex_mid">
-                        <img src="https://pbs.twimg.com/profile_images/1335935141949030402/znPtSFqA_400x400.jpg" class="prof_img">
-                        <input type="text" class="tweet_txt" >
+                        <div class="prof_img_box">
+                            <img src="https://pbs.twimg.com/profile_images/1335935141949030402/znPtSFqA_400x400.jpg" alt=""
+                            class="icon">
+                        </div>
+                        <input type="text" class="tweet_txt" placeholder="What's happening">
                     </div>
                     <div class="tweet_set flex_mid">
                         <div class="set_icon_box flex_mid">
@@ -93,23 +108,34 @@
                     </div>
                 </div>
                 <div class="tweet_following">
-                    <div class="prof_box">
-                            <img src="https://pbs.twimg.com/profile_images/1335935141949030402/znPtSFqA_400x400.jpg" alt="" class="icon">
+                    <div class="prof_box flex_mid">
+                        <div class="prof_img_box">
+                            <img src="https://pbs.twimg.com/profile_images/1335935141949030402/znPtSFqA_400x400.jpg" alt=""
+                            class="icon">
+                        </div>
+                        <div class="user_info">
                             <div class="name_id_time flex_mid">
                                 <p class="name">Koki Sakai</p>
                                 <p class="user_id">@i_love_japan</p>
                                 <p class="tweet_time">6m</p>
                             </div>
-                            <p class="contxt_user">I AM A SAMRTER PAERSON THAN EVERY ONE</p>
+                            <p class="contxt_user">I AM A SAMRTER PAERSON THAN EVERY ONE.</p>
+                        </div>
+                    </div>
+                    <div class="tweet_stats_box flex_mid">
+                        <!-- <div class="tweet_icon_box flex_mid"> -->
+                            <div class="tweet_icon comment"></div>
+                            <div class="tweet_icon retweet"></div>
+                            <div class="tweet_icon like"></div>
+                        <!-- </div> -->
                     </div>
                 </div>
-                
             </div>
 
             <!-- Right news space  -->
             <div class="right_news">
                 <div class="input_box">
-                    <input type="text" class="sarch_bar" size="20" placeholder="Search Twitter"/>
+                    <input type="text" class="sarch_bar" size="20" placeholder="Search Twitter" />
                 </div>
                 <div class="news_box">
                     <h2>what's happening</h2>
@@ -119,7 +145,8 @@
                             <p class="news_title">Ukrain jasdjans;vj kjdhvjnas vajb kafhv;ja:alvh:</p>
                         </div>
                         <div class="img_news img">
-                            <img src="https://pbs.twimg.com/semantic_core_img/1514255010715996161/UCga8cuj?format=jpg&name=240x240"alt="" />
+                            <img src="https://pbs.twimg.com/semantic_core_img/1514255010715996161/UCga8cuj?format=jpg&name=240x240"
+                                alt="" />
                         </div>
                     </div>
                     <div class="news sec flex">
@@ -137,7 +164,8 @@
                             <p class="news_title">Ukrain jasdjans;vj kjdhvjnas vajb kafhv;ja:alvh:</p>
                         </div>
                         <div class="img_news img">
-                            <img src="https://pbs.twimg.com/semantic_core_img/1513983762136141827/1m8BOU66?format=jpg&name=240x240"alt="" />
+                            <img src="https://pbs.twimg.com/semantic_core_img/1513983762136141827/1m8BOU66?format=jpg&name=240x240"
+                                alt="" />
                         </div>
                     </div>
                     <div class="news four flex">
@@ -162,7 +190,7 @@
                         <a href="http://">
                             <p>show more</p>
                         </a>
-                    </div>                  
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,16 +3,32 @@ p{
 }
 .tweet_txt{
     margin-left: 1px;
+    margin-top: 1px;
+}
+.home_title{
+    justify-content: space-between;
+    position: sticky;
+}
+.tweet_box{
+    border: 1px solid rgba(128, 128, 128, 0.39);
+}
+input{
+    border: 0px;
 }
 .flex_mid{
     display: flex;
 }
+
 .prof_box img{
     border-radius: 50%;
     width: 50px;
+    margin-right: 1%;
 }
 .tweet_set{
-    padding-left: 3%;
+    justify-content: space-around;
+}
+.home{
+    content: url('https://api.iconify.design/clarity/favorite-line.svg?color=%2385b6ff&height=20');
 }
 .pic{
     content: url('https://api.iconify.design/icon-park-outline/pic.svg?color=%2385b6ff&height=20');
@@ -31,4 +47,36 @@ p{
 }
 .location{
     content: url('https://api.iconify.design/akar-icons/location.svg?color=%2385b6ff&height=20');
+}
+.comment{
+    content: url('https://api.iconify.design/ei/comment.svg?color=%23ccc&height=25');
+    padding-right: 10%;
+}
+.retweet{
+    content: url('https://api.iconify.design/system-uicons/retweet.svg?color=%23ccc&height=25');
+    padding: 0 10%;
+}
+.like{
+    content: url('https://api.iconify.design/icon-park-outline/like.svg?color=%23ccc&height=25');
+    padding-left: 10%;
+}
+.tweet_following{
+    margin-top: 10%;
+    border: 1px solid rgba(128, 128, 128, 0.39) ;
+}
+.prof_img_box{
+    padding-top: 10px;
+}
+.name_id_time{
+    padding-top: 10px;
+}
+.name, .user_id{
+    padding: 0px 20px;
+}
+.contxt_user{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.tweet_stats_box{
+    justify-content: center;
 }
