@@ -11,3 +11,24 @@ p{
     border-radius: 50%;
     width: 50px;
 }
+.tweet_set{
+    padding-left: 3%;
+}
+.pic{
+    content: url('https://api.iconify.design/icon-park-outline/pic.svg?color=%2385b6ff&height=20');
+}
+.gif{
+    content: url('https://api.iconify.design/fluent/gif-16-regular.svg?color=%2385b6ff&height=20');
+}
+.graph{
+    content: url('https://api.iconify.design/foundation/graph-horizontal.svg?color=%2385b6ff&height=20');
+}
+.smile{
+    content: url('https://api.iconify.design/bi/emoji-smile.svg?color=%2385b6ff&height=20');
+}
+.schedule{
+    content: url('https://api.iconify.design/healthicons/i-schedule-school-date-time.svg?color=%2385b6ff&height=20');
+}
+.location{
+    content: url('https://api.iconify.design/akar-icons/location.svg?color=%2385b6ff&height=20');
+}
