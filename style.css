@@ -11,17 +11,20 @@ body{
 .side_menu {
     width: 22%;
 }
+
 .tweet_news {
     width: 78%;
     display: flex;
+    justify-content: space-between;
+    width: 75%;
+    /* padding-right: 5%; */
 }
 
 .main_tweets {
-    width: 70%;
+    width: 52%;
 }
-
 .right_news {
-    width: 30%;
+    width: 43%;
 }
 
 
