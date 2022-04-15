@@ -1,6 +1,16 @@
 p{
     margin: 0;
 }
+
+.main_tweets {
+    border-left: 1px solid rgba(128, 128, 128, 0.15);
+    border-right: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.home_title, .tweet_box, .tweet_following {
+    padding: 0% 2.5%;
+}
+
 .tweet_txt{
     margin-left: 1px;
     margin-top: 1px;
@@ -9,49 +19,111 @@ p{
     justify-content: space-between;
     position: sticky;
 }
-.tweet_box{
-    border: 1px solid rgba(128, 128, 128, 0.39);
-}
 input{
-    border: 0px;
+    border: none;
+    outline: none;
 }
 .flex_mid{
     display: flex;
 }
 
+.prof_box {
+    display: flex;
+}
+
+.prof_box input {
+    font-size: 20px;
+    padding-left: 2%;
+}
+
 .prof_box img{
     border-radius: 50%;
-    width: 50px;
+    width: 48px;
+    height: 48px;
     margin-right: 1%;
 }
-.tweet_set{
-    justify-content: space-around;
+
+.prof_select {
+    display: flex;
+    margin-left: 9%;
+    margin-right: 2%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
 }
-.home{
-    content: url('https://api.iconify.design/clarity/favorite-line.svg?color=%2385b6ff&height=20');
+
+.prof_select div {
+    width: 17px;
+    margin-right: 1%;
+}
+
+.prof_select p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1d9bf0;
+}
+
+.prof_earth {
+    content: url('https://api.iconify.design/carbon/earth-americas-filled.svg?color=%231d9bf0&height=30');
+}
+
+
+.star{
+    content: url('https://api.iconify.design/clarity/favorite-line.svg?color=%231d9bf0&height=20');
 }
 .pic{
-    content: url('https://api.iconify.design/icon-park-outline/pic.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/ep/picture.svg?color=%231d9bf0&height=17');
 }
 .gif{
-    content: url('https://api.iconify.design/fluent/gif-16-regular.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/fluent/gif-20-regular.svg?color=%231d9bf0&height=17');
 }
 .graph{
-    content: url('https://api.iconify.design/foundation/graph-horizontal.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/carbon/chart-bar.svg?color=%231d9bf0&height=17');
 }
 .smile{
-    content: url('https://api.iconify.design/bi/emoji-smile.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/bi/emoji-smile.svg?color=%231d9bf0&height=17');
 }
 .schedule{
-    content: url('https://api.iconify.design/healthicons/i-schedule-school-date-time.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/healthicons/i-schedule-school-date-time-outline.svg?color=%231d9bf0&height=17');
 }
 .location{
-    content: url('https://api.iconify.design/akar-icons/location.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/akar-icons/location.svg?color=%231d9bf0&height=17');
 }
 .comment{
     content: url('https://api.iconify.design/ei/comment.svg?color=%23ccc&height=25');
     padding-right: 10%;
 }
+
+.set_icon{
+    width: 20px;
+}
+
+.tweet_set{
+    padding: 2% 0%;
+    display: flex;
+}
+
+.tweet_icon_box {
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tweet_bottun {
+    margin-left: 40%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1d9bf0;
+    padding: 7px 15px;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+
+
 .retweet{
     content: url('https://api.iconify.design/system-uicons/retweet.svg?color=%23ccc&height=25');
     padding: 0 10%;
@@ -61,17 +133,24 @@ input{
     padding-left: 10%;
 }
 .tweet_following{
-    margin-top: 10%;
-    border: 1px solid rgba(128, 128, 128, 0.39) ;
+    border-top: 1px solid rgba(128, 128, 128, 0.15);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
-.prof_img_box{
-    padding-top: 10px;
+
+.tweet_contents {
+    width: 90%;
+    padding-left: 2%;
 }
-.name_id_time{
-    padding-top: 10px;
+
+.name {
+    font-weight: bold;
 }
-.name, .user_id{
-    padding: 0px 20px;
+
+.user_id {
+    margin-left: 1%;
+    opacity: 0.8;
 }
 .contxt_user{
     padding-top: 10px;
