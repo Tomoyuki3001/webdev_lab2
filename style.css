@@ -12,6 +12,8 @@ body{
 
 .side_menu {
     width: 21%;
+    position: sticky;
+    top: 0%;
 }
 
 .tweet_news {
