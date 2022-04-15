@@ -14,9 +14,8 @@
 .cg_menu_twbird {
     content: url('https://api.iconify.design/logos/twitter.svg?color=%23699bf7&height=25');
     padding-left: 5%;
+    margin-bottom: 6%;
 }
-
-
 
 .cg_menu_top {
     width: 28px;
@@ -27,16 +26,21 @@
     width: 26px;
     height: 26px;
 }
-.cg_menu {
-    margin: 12% 0%;
-    height: 26px;
-    display: flex;
+
+.cg_category {
+    display: inline-block;
+    padding: 4.5% 5%;
     cursor: pointer;
-    padding-left: 5%;
+    margin-bottom: 4%;
 }
 
-#cg_menu {
-    margin: 12% 0% 8% 0%;
+.cg_category:hover {
+    background-color: #e4e4e4;
+    border-radius: 30px;
+}
+
+.cg_menu {
+    display: flex;
 }
 
 .cg_menu_twbird {
@@ -44,7 +48,6 @@
 }
 
 .cg_menu_inside {
-
 display: table;
 }
 
@@ -76,6 +79,10 @@ display: table;
     width: 80%;
     font-size: 17px;
     cursor: pointer;
+}
+
+.tweet_btn_1:hover {
+    background-color: #0f8fe5;
 }
 
 .profile_link {
