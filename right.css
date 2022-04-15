@@ -1,3 +1,14 @@
+.search_bar_box{
+    display: flex;
+    background-color: rgb(243, 244, 244);
+    border-radius: 9999px;
+    margin-top: 5%;
+}
+.search_icon{
+    content: url('https://api.iconify.design/akar-icons/search.svg?color=%23ccc&height=20');
+    padding: 0px 5%;
+}
+
 .sarch_bar{
     border-radius: 60px;
     width: 98%;
