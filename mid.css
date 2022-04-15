@@ -2,7 +2,7 @@ p{
     margin: 0;
 }
 .tweet_txt{
-    margin-left: 1px;
+    margin-left: 10px;
     margin-top: 1px;
 }
 .home_title{
@@ -14,6 +14,8 @@ p{
 }
 input{
     border: 0px;
+    width: 90%;
+    margin-left: 10%;
 }
 .flex_mid{
     display: flex;
@@ -22,31 +24,41 @@ input{
 .prof_box img{
     border-radius: 50%;
     width: 50px;
-    margin-right: 1%;
+    margin: 0px 10%;
 }
 .tweet_set{
     justify-content: space-around;
 }
+.set_icon_tweet_box{
+    display: flex;
+    justify-content: space-between;
+}
+.icon_all_box{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
 .home{
-    content: url('https://api.iconify.design/clarity/favorite-line.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/clarity/favorite-line.svg?color=%2385b6ff&height=5');
 }
 .pic{
-    content: url('https://api.iconify.design/icon-park-outline/pic.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/icon-park-outline/pic.svg?color=%2385b6ff&height=5');
 }
 .gif{
-    content: url('https://api.iconify.design/fluent/gif-16-regular.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/fluent/gif-16-regular.svg?color=%2385b6ff&height=5');
 }
 .graph{
-    content: url('https://api.iconify.design/foundation/graph-horizontal.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/foundation/graph-horizontal.svg?color=%2385b6ff&height=5');
 }
 .smile{
-    content: url('https://api.iconify.design/bi/emoji-smile.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/bi/emoji-smile.svg?color=%2385b6ff&height=5');
 }
 .schedule{
-    content: url('https://api.iconify.design/healthicons/i-schedule-school-date-time.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/healthicons/i-schedule-school-date-time.svg?color=%2385b6ff&height=5');
 }
 .location{
-    content: url('https://api.iconify.design/akar-icons/location.svg?color=%2385b6ff&height=20');
+    content: url('https://api.iconify.design/akar-icons/location.svg?color=%2385b6ff&height=5');
 }
 .comment{
     content: url('https://api.iconify.design/ei/comment.svg?color=%23ccc&height=25');
@@ -60,6 +72,10 @@ input{
     content: url('https://api.iconify.design/icon-park-outline/like.svg?color=%23ccc&height=25');
     padding-left: 10%;
 }
+.tweet_btn{
+    background-color: #1d9bf0;
+    color: #ffff;
+}
 .tweet_following{
     margin-top: 10%;
     border: 1px solid rgba(128, 128, 128, 0.39) ;
@@ -70,8 +86,17 @@ input{
 .name_id_time{
     padding-top: 10px;
 }
-.name, .user_id{
+.name{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.user_id{
     padding: 0px 20px;
+    color: #536471;
+}
+.tweet_time{
+    padding-right: 10px;
+    color: #536471;
 }
 .contxt_user{
     padding-top: 10px;
@@ -79,4 +104,7 @@ input{
 }
 .tweet_stats_box{
     justify-content: center;
+}
+.retweet:hover{
+    opacity: 0.5;
 }
