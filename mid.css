@@ -1,6 +1,16 @@
 p{
     margin: 0;
 }
+
+.main_tweets {
+    border-left: 1px solid rgba(128, 128, 128, 0.15);
+    border-right: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.home_title, .tweet_box, .tweet_following {
+    padding: 0% 2.5%;
+}
+
 .tweet_txt{
     margin-left: 10px;
     margin-top: 1px;
@@ -8,9 +18,6 @@ p{
 .home_title{
     justify-content: space-between;
     position: sticky;
-}
-.tweet_box{
-    border: 1px solid rgba(128, 128, 128, 0.39);
 }
 input{
     border: 0px;
@@ -21,13 +28,29 @@ input{
     display: flex;
 }
 
+.prof_box {
+    display: flex;
+}
+
+.prof_box input {
+    font-size: 20px;
+    padding-left: 2%;
+}
+
 .prof_box img{
     border-radius: 50%;
     width: 50px;
     margin: 0px 10%;
 }
-.tweet_set{
-    justify-content: space-around;
+
+.prof_select {
+    display: flex;
+    margin-left: 9%;
+    margin-right: 2%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
 }
 .set_icon_tweet_box{
     display: flex;
@@ -64,6 +87,36 @@ input{
     content: url('https://api.iconify.design/ei/comment.svg?color=%23ccc&height=25');
     padding-right: 10%;
 }
+
+.set_icon{
+    width: 20px;
+}
+
+.tweet_set{
+    padding: 2% 0%;
+    display: flex;
+}
+
+.tweet_icon_box {
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tweet_bottun {
+    margin-left: 40%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1d9bf0;
+    padding: 7px 15px;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+
+
 .retweet{
     content: url('https://api.iconify.design/system-uicons/retweet.svg?color=%23ccc&height=25');
     padding: 0 10%;
@@ -77,14 +130,19 @@ input{
     color: #ffff;
 }
 .tweet_following{
-    margin-top: 10%;
-    border: 1px solid rgba(128, 128, 128, 0.39) ;
+    border-top: 1px solid rgba(128, 128, 128, 0.15);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
-.prof_img_box{
-    padding-top: 10px;
+
+.tweet_contents {
+    width: 90%;
+    padding-left: 2%;
 }
-.name_id_time{
-    padding-top: 10px;
+
+.name {
+    font-weight: bold;
 }
 .name{
     padding-left: 10px;

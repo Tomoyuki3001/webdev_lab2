@@ -11,9 +11,11 @@
     margin: 0%;
 }
 
-.twitter_bird {
-    margin-left: 5px;
+.cg_menu_twbird {
+    content: url('https://api.iconify.design/logos/twitter.svg?color=%23699bf7&height=25');
+    padding-left: 5%;
 }
+
 
 
 .cg_menu_top {
@@ -26,16 +28,19 @@
     height: 26px;
 }
 .cg_menu {
-    margin: 12% 5%;
+    margin: 12% 0%;
     height: 26px;
     display: flex;
     cursor: pointer;
-    /* background-color: aqua; */
+    padding-left: 5%;
+}
+
+#cg_menu {
+    margin: 12% 0% 8% 0%;
 }
 
 .cg_menu_twbird {
-    margin-top: 8px;
-    margin-left: 12px;
+    margin-top: 5%;
 }
 
 .cg_menu_inside {
@@ -50,7 +55,11 @@ display: table;
 
 .cg_menu p {
     font-size: 20px;
-    padding: 0px 15px;
+    padding: 0px 20px;
+}
+
+.menu_icon {
+    content: url('https://api.iconify.design/carbon/overflow-menu-horizontal.svg?color=black&height=32');
 }
 
 .icon {
@@ -62,10 +71,10 @@ display: table;
     color: #ffffff;
     border-radius: 30px;
     text-align: center;
-    padding: 14px 5px;
+    padding: 15px 5px;
     font-weight: bold;
     width: 80%;
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
 }
 
@@ -74,21 +83,23 @@ display: table;
     height: 40px;
     border-radius: 40px;
     /* background-color: aqua; */
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 10px 10px;
+    padding: 15px 10px;
+    margin: 15px 0px;
     cursor: pointer;
 }
 
 .profile_link:hover {
-    background-color: #c4c4c4;
+    background-color: #e4e4e4
 }
 
 .pl1 {
     width: 20%;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 5px;
+    margin-right: 3%;
+}
+
+.pl1 img {
+    border-radius: 50%;
+    width: 80%;
 }
 
 .pl2 {
