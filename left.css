@@ -90,8 +90,8 @@ display: table;
     height: 40px;
     border-radius: 40px;
     /* background-color: aqua; */
-    padding: 15px 10px;
-    margin: 15px 0px;
+    padding: 13px 10px;
+    margin: 10px 5px 10px 0px;
     cursor: pointer;
 }
 
